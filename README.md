@@ -96,6 +96,9 @@ $ yarn build
 ```sh
 # 复制 src\assets\images\icon.ico 到 build\icon.ico
 $ copy src\assets\images\icon.ico build\icon.ico
+
+# 复制 src\assets\images\uninstall.ico 到 build\icon.ico
+$ copy src\assets\images\uninstall.ico build\uninstall.ico
 ```
 
 3. 复制 main.js
