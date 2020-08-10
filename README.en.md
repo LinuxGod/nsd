@@ -1,4 +1,5 @@
-![nsd logo](./src/assets/images/NoSQLDesktopLogo.png)
+![NoSQL Desktop Logo](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/NoSQLDesktopLogo.png)
+
 # NoSQL Desktop
 English | [中文简体](./README.md)
 
