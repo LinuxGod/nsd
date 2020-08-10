@@ -3,7 +3,7 @@
 # NoSQL Desktop
 中文简体 | [English](./README.en.md)
 
-<a href="https://www.liunote.com" target="_blank">https://www.liunote.com </a>
+<a href="https://www.liunote.com" target="_blank">https://www.liunote.com</a>
 
 ***
 
@@ -147,7 +147,7 @@ $ yarn pack:deb
 ![命令行](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/terminal.png)
 
 ## 作者
-邮箱: <li.usichen@163.com>
+邮箱: <li.usichen@163.com>  
 微信:  
 
 ![我的微信](https://gitee.com/linuxGod/Images/raw/master/nsd/wechat.png)

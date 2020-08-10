@@ -148,7 +148,7 @@ $ yarn pack:deb
 
 
 ## Author
-Email: <li.usichen@163.com>
+Email: <li.usichen@163.com>  
 WeChat:  
 
 ![我的微信](https://gitee.com/linuxGod/Images/raw/master/nsd/wechat.png)
