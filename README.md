@@ -3,6 +3,8 @@
 # NoSQL Desktop
 中文简体 | [English](./README.en.md)
 
+<a href="https://www.liunote.com" target="_blank">https://www.liunote.com </a>
+
 ***
 
 - [项目介绍](#项目介绍)
@@ -45,7 +47,7 @@ Redis >= 5.x
 ### 启动项目
 ```sh
 # 克隆到本地
-$ git clone https://gitee.com/linuxGod/nsd.git nsd
+$ git clone https://github.com/LinuxGod/nsd.git
 
 # 进入项目目录
 $ cd nsd
@@ -145,8 +147,9 @@ $ yarn pack:deb
 ![命令行](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/terminal.png)
 
 ## 作者
-Email: <li.usichen@163.com>
-WeChat:
+邮箱: <li.usichen@163.com>
+微信:  
+
 ![我的微信](https://gitee.com/linuxGod/Images/raw/master/nsd/wechat.png)
 
 ## 协议
