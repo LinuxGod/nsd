@@ -1,0 +1,8 @@
+/* 重写Modal的样式,去掉圆角 */
+.ant-modal-content {
+    border-radius: 0;
+}
+
+.ant-modal-footer {
+    padding: 0px;
+}

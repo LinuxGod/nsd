@@ -1,0 +1,78 @@
+.logo {
+  position: relative;
+  padding-left: 21px;
+  height: 64px;
+  line-height: 64px;
+  transition: all .3s;
+  overflow: hidden;
+}
+
+.logo img {
+  display: inline-block;
+  height: 36px;
+}
+
+.logo h1 {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: Avenir,Helvetica Neue,Arial,Helvetica,sans-serif;
+  font-weight: 600;
+}
+
+.logo-dark {
+  background: #002140;
+}
+
+.logo-dark h1 {
+  color: #1890FF;
+}
+
+.logo-light {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,21,41,.08);
+}
+
+.logo-light h1 {
+  color: #1890FF;
+}
+
+.sidebar-container-dark {
+  background: #001529;
+}
+
+.sidebar-container-light {
+  background: #fff;
+}
+
+.new-connect {
+  text-align: center;
+  height: 64px;
+  line-height: 64px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.new-connect-dark {
+  border-right: 1px #001529 solid;
+  border-bottom: 1px #606D79 solid;
+}
+
+.new-connect-light {
+  border-right: 1px #E8E8E8 solid;
+  border-bottom: 1px #E8E8E8 solid;
+}
+
+.sidebar {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.sidebar-dark {
+  border-right: 1px #000C17 solid;
+}
+
+.sidebar-light {
+  border-right: 1px #E8E8E8 solid;
+}

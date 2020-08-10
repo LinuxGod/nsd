@@ -1,0 +1,8 @@
+/* 覆盖antd modal的样式 */
+.ant-modal-wrap {
+    overflow: hidden;
+}
+
+.server-info {
+    top: 0
+}

@@ -1,0 +1,8 @@
+{
+    "setting.base": "General",
+	"setting.about": "About",
+	"setting.base.theme": "Theme",
+	"setting.base.theme.light": "Light",
+	"setting.base.theme.dark": "Dark",
+	"setting.base.language": "Language"
+}

@@ -1,0 +1,8 @@
+{
+    "setting.base": "常规",
+	"setting.about": "关于",
+	"setting.base.theme": "主题",
+	"setting.base.theme.light": "浅色",
+	"setting.base.theme.dark": "深色",
+	"setting.base.language": "语言"
+}
