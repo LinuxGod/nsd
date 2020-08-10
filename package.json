@@ -1,6 +1,6 @@
 {
   "name": "nsd",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha",
   "private": true,
   "main": "src/main.js",
   "homepage": ".",
@@ -8,11 +8,12 @@
   "description": "NoSQL Desktop",
   "author": {
     "name": "Liu",
+    "url": "https://www.liunote.com",
     "email": "li.usichen@163.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/linuxGod/nsd"
+    "url": "https://github.com/LinuxGod/nsd.git"
   },
   "dependencies": {
     "antd": "^3.26.4",
