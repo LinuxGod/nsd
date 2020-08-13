@@ -22,7 +22,7 @@ English | [中文简体](./README.md)
 
 ## Instructions
 ```
-A Redis Manager Project
+A visual client of NoSQL databases that only supports redis memory database currently, but in the future it will be a client that supports multiple types of NoSQL.
 ```
 
 ## Development
@@ -154,7 +154,7 @@ $ yarn pack:deb
 Email: <li.usichen@163.com>  
 WeChat:  
 
-![我的微信](https://gitee.com/linuxGod/Images/raw/master/nsd/wechat.png)
+![WeChat](https://gitee.com/linuxGod/Images/raw/master/nsd/wechat.png)
 
 ## LICENSE
 [MIT](./LICENSE)
