@@ -77,7 +77,7 @@ $ cp src/assets/images/icon.icns build/icon.icns
 
 3. Copy main.js
 ```sh
-# Copy main.js to build folder and rename to electron.js
+# Copy main.js to build folder and then rename to electron.js
 cp src/main.js build/electron.js
 ```
 
@@ -103,10 +103,10 @@ $ copy src\assets\images\uninstall.ico build\uninstall.ico
 
 3. Copy main.js
 ```sh
-# Copy to build directory and rename to electron.js
+# Copy to build directory and then rename to electron.js
 $ copy src\main.js build\electron.js
 
-# Copy to public directory and rename to electron.js
+# Copy to public directory and then rename to electron.js
 $ copy src\main.js public\electron.js
 ```
 
@@ -133,7 +133,7 @@ $ cp src/assets/images/icon.icns build/icon.icns
 
 3. Copy main.js
 ```sh
-# Copy main.js to build directory and rename to electron.js
+# Copy main.js to build directory and then then rename to electron.js
 cp src/main.js build/electron.js
 ```
 
