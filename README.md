@@ -1,159 +1,160 @@
 ![NoSQL Desktop Logo](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/NoSQLDesktopLogo.png)
 
 # NoSQL Desktop
-中文简体 | [English](./README.en.md)
+English | [中文简体](./README.zh.md)
 
-<a href="https://www.liunote.com" target="_blank">https://www.liunote.com</a>
+<a href="https://www.liunote.com" target="_blank">https://www.liunote.com </a>
 
 ***
 
-- [项目介绍](#项目介绍)
-- [开发](#开发)
-    - [环境要求](#环境要求)
-    - [启动项目](#启动项目)
-- [依赖](#依赖)
-- [打包](#打包)
+- [Instructions](#instructions)
+- [Development](#development)
+    - [Environment](#environment)
+    - [Start](#start)
+- [Dependencies](#dependencies)
+- [Pack](#pack)
     - [MacOS](#macos)
     - [Windows](#windows)
     - [Ubuntu](#ubuntu)
-- [截屏](#截屏)
-- [作者](#作者)
-- [协议](#协议)
+- [Screenshots](#screenshots)
+- [Author](#author)
+- [LICENSE](#license)
 
-## 项目介绍
-一个NoSQL数据库的可视化客户端。目前只支持redis内存数据库，但未来会是支持多类型的NoSQL的客户端。
-1. 友好的UI
-2. 易用的功能
+## Instructions
+```
+A visual client of NoSQL databases that only supports redis memory database currently, but in the future it will be a client that supports multiple types of NoSQL.
+```
 
-## 开发
-### 环境要求
+## Development
+### Environment
 ```
 NodeJS >= 10.x
 Redis >= 5.x
 ```
 
-### 依赖
+### Dependencies
 * React 16.8.6
-* Redux           --状态管理
-* React-Router-V4 --多页面
+* Redux           --State manager
+* React-Router-V4 --Multi pages
 * Ant Design      --UI
-* React Intl      --国际化
-* Gulp            --合并国际化词条
+* React Intl      --i18n
+* Gulp            --Merge i18n word
 * node_redis      --redis client
-* electron-log    --日志管理
-* xlsx            --数据导出
+* electron-log    --logs
+* xlsx            --Data Export
 * ...
 
-### 启动项目
+### Start
 ```sh
-# 克隆到本地
+# clone to local
 $ git clone https://github.com/LinuxGod/nsd.git
 
-# 进入项目目录
+# go to nsd directory
 $ cd nsd
 
-# yarn install 或 npm install
+# yarn install or npm install
 $ yarn install
 
-# yarn start 或 npm start
+# yarn start or npm start
 $ yarn start
 
-# yarn estart 或 npm run estart
+# yarn estart or npm run estart
 $ yarn estart
 ```
 
-## 打包
+## Pack
 ### MacOS
-1.  打包
+1.  Build
 ```sh
 $ yarn build
 ```
 
-2. 复制 icon
+2. Copy icon
 ```sh
-# 复制src/assets/images/icon.icns到build文件夹
+# Copy icon.icns to build folder
 $ cp src/assets/images/icon.icns build/icon.icns
 ```
 
-3. 复制 main.js
+3. Copy main.js
 ```sh
-# 复制并修改文件名称
-$ cp src/main.js build/electron.js
+# Copy main.js to build folder and then rename to electron.js
+cp src/main.js build/electron.js
 ```
 
-4. 打包
+4. Pack
 ```sh
 $ yarn pack:dmg
 ```
 
 ### Windows
-1.  构建
+1.  Build
 ```sh
 $ yarn build
 ```
 
-2. 复制 ico
+2. Copy ico
 ```sh
-# 复制 src\assets\images\icon.ico 到 build\icon.ico
+# Copy src\assets\images\icon.ico to build\icon.ico
 $ copy src\assets\images\icon.ico build\icon.ico
 
-# 复制 src\assets\images\uninstall.ico 到 build\icon.ico
+# copy src\assets\images\uninstall.ico to build\icon.ico
 $ copy src\assets\images\uninstall.ico build\uninstall.ico
 ```
 
-3. 复制 main.js
+3. Copy main.js
 ```sh
-# 复制main.js到build目录并重命名为electron.js
+# Copy to build directory and then rename to electron.js
 $ copy src\main.js build\electron.js
 
-# 复制main.js到public目录并重命名为electron.js
+# Copy to public directory and then rename to electron.js
 $ copy src\main.js public\electron.js
 ```
 
-4. 打包
+4. pack
 ```sh
-# 打包64位程序
+# pack 64bit app
 $ yarn pack:win64
 
-# 打包32位程序
+# pack 32 app
 $ yarn pack:win32
 ```
 
 ## Ubuntu
-1.  打包
+1.  Build
 ```sh
 $ yarn build
 ```
 
-2. 复制
+2. Copy icon
 ```sh
-# 复制src/assets/images/icon.icns到build文件夹
+# Copy icon.icns to build folder
 $ cp src/assets/images/icon.icns build/icon.icns
 ```
 
-3. 复制
+3. Copy main.js
 ```sh
-# 复制并修改文件名称
-$ cp src/main.js build/electron.js
+# Copy main.js to build directory and then then rename to electron.js
+cp src/main.js build/electron.js
 ```
 
-4. 打包
+4. Pack
 ```sh
 $ yarn pack:deb
 ```
 
-## 截屏
-![欢迎](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/welcome.png)
-![服务器信息](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/info.png)
-![连接](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/connection.png)
-![编辑器](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/editor.png)
-![命令行](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/terminal.png)
+## Screenshots
+![Welcome](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/welcome.png)
+![Info](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/info.png)
+![Connection](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/connection.png)
+![Editor](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/editor.png)
+![Terminal](https://gitee.com/linuxGod/Images/raw/master/nsd/Screenshots/terminal.png)
 
-## 作者
-邮箱: <li.usichen@163.com>  
-微信:  
 
-![我的微信](https://gitee.com/linuxGod/Images/raw/master/nsd/wechat.png)
+## Author
+Email: <li.usichen@163.com>  
+WeChat:  
 
-## 协议
+![WeChat](https://gitee.com/linuxGod/Images/raw/master/nsd/wechat.png)
+
+## LICENSE
 [MIT](./LICENSE)
